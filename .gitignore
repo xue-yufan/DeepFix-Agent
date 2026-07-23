@@ -35,6 +35,14 @@ __pycache__/
 # pytest 缓存
 .pytest_cache/
 
-# uv 锁文件（可选，如果你希望保持锁文件在仓库中，可以保留 uv.lock，这里我们决定保留）
-# uv.lock 建议提交，但如果你希望每次用户自己生成，可以忽略
-# 我们建议提交 uv.lock，所以不忽略它
+# === 新增：测试相关（不提交） ===
+py_document_tests/
+tests/
+test_*.py
+*_test.py
+target*.py
+
+# 代码覆盖报告
+.coverage
+htmlcov/
+*.cover
