@@ -1,0 +1,40 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量（包含 API Key）
+.env
+*.env
+
+# 日志文件
+logs/
+*.log
+
+# 检查点（断点续传数据库）
+checkpoints/
+*.db
+*.db-shm
+*.db-wal
+
+# 输出目录（用户测试结果）
+test/
+fix/
+fixed/
+
+# 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+
+# pytest 缓存
+.pytest_cache/
+
+# uv 锁文件（可选，如果你希望保持锁文件在仓库中，可以保留 uv.lock，这里我们决定保留）
+# uv.lock 建议提交，但如果你希望每次用户自己生成，可以忽略
+# 我们建议提交 uv.lock，所以不忽略它
